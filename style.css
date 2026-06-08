@@ -1,1 +1,82 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+/* Cabeçalho */
+header {
+    background-color: #2E8B57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Seções */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Botão Quiz */
+button {
+    padding: 10px 20px;
+    background-color: #2E8B57;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #246b45;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
